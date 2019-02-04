@@ -1,0 +1,14 @@
+<mat-card *ngFor="let weather of theWeather.weatherPack" class="example-card">
+  <div class="cardHeader">
+    <div class="cardTitle txtCtr">
+      {{weather.dt_txt}}
+    </div>
+  </div>
+  <div><img mat-card-image src={{weather.dt}} class="matCardImage block" alt="Todays Weather"></div>
+  <mat-card-content class="txtBlck">
+    <span class="weatherText block">{{weather.main.temp}}&#176;</span>
+    <span class="weatherText block">{{weather.weather.main}}</span>
+    <div class="tempDt tempL"><mat-icon class="arrw arrwD">arrow_drop_down</mat-icon> {{weather.main.temp_min}} <p class="tempDtTxt arrwD">Min</p></div>
+    <div class="tempDt tempH"><mat-icon class="arrw arrwU">arrow_drop_up</mat-icon> {{weather.main.temp_max}}<p class="tempDtTxt arrwU">Max</p></div>
+  </mat-card-content>
+</mat-card>

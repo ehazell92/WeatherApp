@@ -1,0 +1,77 @@
+:host {
+    display: inline-flex;
+    width: 98%;
+    margin-left: 4%;
+    margin-bottom: 1%;
+}
+.block {
+    display: block;
+}
+.example-card {
+}
+.mat-card {
+    border-radius: 15px !important;
+    background-color: white;
+    margin-right: 7%;
+    width: 32%;
+    box-shadow: 2px 2px 2px silver;
+}
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+.txtCtr {
+    text-align: center !important;
+}
+.cardHeader {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.cardTitle {
+    font-size: 3vW;
+    color: #448AFF;
+}
+.weatherText {
+    text-align: center;
+    font-size: 3vW;
+    color: #448AFF;
+}
+.matCardImage {
+    max-height: 24vH;
+    max-width: 90%;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+.tempDt {
+    font-size: 1.9vW;
+    color: #448AFF;
+    display: grid;
+}
+    .tempL {
+        float: left;
+    }
+    .tempH {
+        float: right;
+    }
+.txtBlck {
+    margin-top: -8% !important;
+}
+.arrw {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+    .arrwD {
+    }
+    .arrwU {
+        color: #F44336 !important;
+    }
+.tempDtTxt {
+    /* margin-left: -8%; */
+    margin-top:0;
+    margin-bottom:0;
+    font-size: 1.3vW;
+    text-align: center;
+}
