@@ -1,7 +1,7 @@
 <div class="weatherInputForm">
   <form class="weatherForm">
     <mat-form-field class="zipInput">
-      <input matInput placeholder="Enter a Zipcode" [(ngModel)]="zip" name="theZ"/>
+      <input matInput placeholder="Enter a Zipcode" [(ngModel)]="zip" #theZ name="theZ" (keyup)="_keyUp($event)" [maxlength]="5" />
     </mat-form-field>
     <button mat-raised-button (click)="update()" class="searchBtn" type="button">Search...</button>
   </form>
